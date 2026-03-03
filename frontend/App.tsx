@@ -156,6 +156,45 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
+            </main>
+
+      {/* Footer */}
+      <footer className="flex-shrink-0 pb-6 px-4 bg-slate-50">
+        <div className="max-w-3xl mx-auto">
+
+          <div className="flex items-center justify-center gap-6 text-xs">
+
+            <a
+              href="https://es.ayuniko.shop"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-emerald-600 font-semibold hover:underline"
+            >
+              <Phone size={16} />
+              soporte whatsapp
+            </a>
+
+            <a
+              href="https://es.ayuniko.shop/filosofia"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-slate-600 font-semibold hover:underline"
+            >
+              <MessageSquare size={16} />
+              filosofía ayúniko
+            </a>
+
+          </div>
+
+          <div className="mt-3 text-center text-[10px] text-slate-400 tracking-wide">
+            asistente inteligente · no sustituye consejo médico profesional
+          </div>
+
+        </div>
+      </footer>
+
+    </div>
+  );
     </div>
   );
 };
