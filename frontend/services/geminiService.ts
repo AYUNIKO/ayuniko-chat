@@ -1,27 +1,37 @@
-
-import { GoogleGenAI, Chat } from '@google/genai';
 import { SYSTEM_INSTRUCTION } from '../constants';
 
-const apiKey = import.meta.env.VITE_API_KEY;
-const ai = new GoogleGenAI({ apiKey });
+// url del backend su vercel (es: https://ayuniko-chat-backend.vercel.app)
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
+type Chat = { id: string };
 
 export const createAyunikoChat = (): Chat => {
-  return ai.chats.create({
-    model: 'gemini-2.5-flash',
-    config: {
-      systemInstruction: SYSTEM_INSTRUCTION,
-      temperature: 0.4,
-      topP: 0.95,
-    },
-  });
+  // manteniamo la stessa interfaccia usata da App.tsx
+  return { id: 'ayuniko-chat' };
 };
 
-export const sendMessageToGemini = async (chat: Chat, message: string) => {
-  try {
-    const result = await chat.sendMessage({ message });
-    return result.text;
-  } catch (error) {
-    console.error("Error sending message to Gemini:", error);
-    throw error;
+export const sendMessageToGemini = async (_chat: Chat, message: string) => {
+  if (!BASE_URL) {
+    throw new Error('Missing VITE_API_BASE_URL');
   }
+
+  const r = await fetch(`${BASE_URL}/chat`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      message,
+      // opzionale: se vuoi che il backend riceva anche il system prompt
+      // altrimenti il system sta fisso nel backend
+      system: SYSTEM_INSTRUCTION,
+    }),
+  });
+
+  if (!r.ok) {
+    const txt = await r.text().catch(() => '');
+    throw new Error(`Backend error ${r.status}: ${txt}`);
+  }
+
+  const data = await r.json();
+  // compatibilità: backend può rispondere {reply} oppure {text}
+  return data.reply ?? data.text ?? '';
 };
