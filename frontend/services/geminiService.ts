@@ -2,8 +2,8 @@
 import { GoogleGenAI, Chat } from '@google/genai';
 import { SYSTEM_INSTRUCTION } from '../constants';
 
-const apiKey = (process.env as any).API_KEY;
-const ai = new GoogleGenAI({ apiKey, vertexai: true });
+const apiKey = import.meta.env.VITE_API_KEY;
+const ai = new GoogleGenAI({ apiKey });
 
 export const createAyunikoChat = (): Chat => {
   return ai.chats.create({
