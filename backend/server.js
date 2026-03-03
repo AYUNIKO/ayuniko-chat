@@ -59,9 +59,18 @@ function loadJsonArray(fileName) {
     console.warn(`file non trovato: ${fileName}`);
     return [];
   }
+
   const raw = fs.readFileSync(fullPath, 'utf-8');
   const parsed = JSON.parse(raw);
-  return Array.isArray(parsed) ? parsed : [];
+
+  // caso 1: il file è già un array
+  if (Array.isArray(parsed)) return parsed;
+
+  // caso 2: formato kb_* che ti ho generato io: { items: [...] }
+  if (parsed && Array.isArray(parsed.items)) return parsed.items;
+
+  // caso 3: fallback (se un domani cambia struttura)
+  return [];
 }
 
 const KB_SAFETY = loadJsonArray('kb_safety_es.json');
