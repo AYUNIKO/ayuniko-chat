@@ -87,11 +87,12 @@ const KB_ALL = [
   
 ];
 
-console.log('[kb] safety:', KB_SAFETY.length);
-console.log('[kb] postventa:', KB_POSTVENTA.length);
-console.log('[kb] products:', KB_PRODUCTS.length);
-console.log('[kb] guide:', KB_GUIDE.length);
-console.log('[kb] total:', KB_ALL.length);
+console.log('kb sizes', {
+  safety: KB_SAFETY.length,
+  postventa: KB_POSTVENTA.length,
+  products: KB_PRODUCTS.length,
+  guide: KB_GUIDE.length,
+});
 
 function getItemText(item) {
   if (!item) return '';
