@@ -125,26 +125,34 @@ const App: React.FC = () => {
                 <div className="flex flex-wrap gap-2 pt-1">
                   <button
                     type="button"
-                    onClick={() => handleSend('Assunzione delle pastiglie')}
+                   onClick={() =>
+  handleSend(
+    'He comprado las pastillas AYÚNIKO COME y ESPERA. ¿Cuál es el protocolo correcto de toma y en qué momentos del día debo tomarlas?')}
                     className="px-3 py-1.5 text-xs rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
                   >
-                    Assunzione delle pastiglie
+                    ¿Cómo se toman las pastillas?
                   </button>
 
                   <button
                     type="button"
-                    onClick={() => handleSend('Preparare BEBE')}
+                    onClick={() =>  handleSend('He comprado AYÚNIKO BEBE. ¿Cómo se prepara correctamente y cómo debo tomarlo durante el día?')}
                     className="px-3 py-1.5 text-xs rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
                   >
-                    Preparare BEBE
+                    ¿Cómo se prepara AYUNIKO BEBÉ?
+
                   </button>
 
                   <button
                     type="button"
-                    onClick={() => handleSend('Come sconfiggere la fame')}
+                   onClick={() =>
+  handleSend(
+    'Por la tarde siento mucha hambre. ¿Qué recomendaciones de AYÚNIKO pueden ayudarme a controlarla?'
+  )
+}
                     className="px-3 py-1.5 text-xs rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
                   >
-                    Come sconfiggere la fame
+                    ¿Cómo vencer el hambre?
+
                   </button>
                 </div>
               )}
