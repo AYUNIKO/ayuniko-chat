@@ -227,6 +227,29 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
+      {/* Footer Supporto Umano */}
+<footer className="flex-shrink-0 px-4 pb-8 pt-6 bg-slate-50 border-t border-slate-200">
+  <div className="max-w-3xl mx-auto text-center">
+
+    <p className="text-xs font-semibold text-slate-700 mb-3">
+      ¿Necesitas ayuda de una persona real?
+    </p>
+
+    <a
+      href="https://wa.me/34621364947"
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-600 text-white text-sm font-medium hover:bg-emerald-700 transition-colors"
+    >
+      Soporte humano por WhatsApp
+    </a>
+
+    <p className="mt-3 text-[10px] text-slate-400">
+      Respuesta directa de nuestro equipo
+    </p>
+
+  </div>
+</footer>
     </div>
   );
 };
