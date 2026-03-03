@@ -345,8 +345,9 @@ Responde siguiendo estrictamente las reglas del sistema y usando solo el context
       },
     });
 
-    const result = await model.generateContent(prompt);
-    const reply = result?.response?.text?.() || '';
+const result = await model.generateContent(prompt);
+let reply = result?.response?.text?.() || '';
+reply = reply.replace(/\*\*/g, '');
 
     return res.json({ reply });
   } catch (err) {
