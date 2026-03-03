@@ -1,0 +1,38 @@
+{
+  "name": "kb_safety",
+  "language": "es",
+  "priority": 100,
+  "items": [
+    {
+      "id": "dolor_de_estomago",
+      "title": "Seguridad: dolor de barriga tras tomar las pastillas",
+      "tags": [
+        "dolor_de_barriga",
+        "molestias",
+        "agua",
+        "suspender",
+        "medico"
+      ],
+      "content": "Si aparece dolor de barriga tras la toma: primero verifica que se estén tomando con abundante agua (suele ser el motivo). Probar unos días. Si el problema persiste: suspender la toma y consultar al médico.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "6"
+      }
+    },
+    {
+      "id": "nota_general_medica",
+      "title": "Nota general de seguridad",
+      "tags": [
+        "seguridad",
+        "patologias",
+        "consultar_medico",
+        "no_sustituye"
+      ],
+      "content": "Los productos AYÚNIKO son un apoyo natural y no sustituyen un estilo alimentario equilibrado. En presencia de patologías o condiciones médicas particulares, es necesario consultar siempre al médico.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "6"
+      }
+    }
+  ]
+}

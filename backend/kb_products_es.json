@@ -1,0 +1,156 @@
+{
+  "name": "kb_products",
+  "language": "es",
+  "priority": 80,
+  "items": [
+    {
+      "id": "glucomanano",
+      "title": "Glucomanano (konjac)",
+      "tags": [
+        "carga_glucémica",
+        "glucosa",
+        "carbohidratos",
+        "glucomanano",
+        "griffonia",
+        "5-htp",
+        "ayúniko",
+        "come",
+        "glucomanano"
+      ],
+      "content": "¿SABÍAS QUE? Lo encuentras en\nAYÚNIKO COME & ESPERA\nA LA DESCUBIERTA DE LO NATURAL Griffonia\nMuchas sustancias naturales, desconocidas para muchos, tienen La Griffonia simplicifolia es una planta rica en 5-HTP, un precursor\npropiedades beneficiosas que contribuyen a una mejor forma física y de la serotonina, un neurotransmisor que desempeña un papel\nbienestar, y por ello se utilizan en el desarrollo de suplementos fundamental en la regulación del estado de ánimo, el sueño y el\nnutricionales. Estos compuestos, derivados de plantas y otras fuentes apetito. La suplementación con 5-HTP derivado de la Griffonia\nnaturales, han sido objeto de estudios científicos que han demostrado puede contribuir a aumentar los niveles de serotonina en el\nsu eficacia en el apoyo a diversas funciones del cuerpo y la mente. A cerebro, ayudando a mejorar el estado de ánimo y a promover un\ncontinuación, presentamos algunas sustancias naturales utilizadas en sueño más reparador. Además de estos beneficios, el aumento\nlos suplementos AYÚNIKO COME y AYÚNIKO ESPERA: de la serotonina también está asociado con un mejor control del\napetito y la reducción del deseo de carbohidratos. Este efecto\nGlucomanano puede favorecer un mejor equilibrio de la carga glucémica,\nEl glucomanano es una fibra alimentaria soluble extraída de la raíz de contribuyendo a mantener estables los niveles de glucosa en\nla planta de konja",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "36"
+      }
+    },
+    {
+      "id": "griffonia_5htp",
+      "title": "Griffonia y 5-HTP",
+      "tags": [
+        "carga_glucémica",
+        "glucosa",
+        "carbohidratos",
+        "glucomanano",
+        "griffonia",
+        "5-htp",
+        "ayúniko",
+        "come",
+        "griffonia_5htp"
+      ],
+      "content": "¿SABÍAS QUE? Lo encuentras en\nAYÚNIKO COME & ESPERA\nA LA DESCUBIERTA DE LO NATURAL Griffonia\nMuchas sustancias naturales, desconocidas para muchos, tienen La Griffonia simplicifolia es una planta rica en 5-HTP, un precursor\npropiedades beneficiosas que contribuyen a una mejor forma física y de la serotonina, un neurotransmisor que desempeña un papel\nbienestar, y por ello se utilizan en el desarrollo de suplementos fundamental en la regulación del estado de ánimo, el sueño y el\nnutricionales. Estos compuestos, derivados de plantas y otras fuentes apetito. La suplementación con 5-HTP derivado de la Griffonia\nnaturales, han sido objeto de estudios científicos que han demostrado puede contribuir a aumentar los niveles de serotonina en el\nsu eficacia en el apoyo a diversas funciones del cuerpo y la mente. A cerebro, ayudando a mejorar el estado de ánimo y a promover un\ncontinuación, presentamos algunas sustancias naturales utilizadas en sueño más reparador. Además de estos beneficios, el aumento\nlos suplementos AYÚNIKO COME y AYÚNIKO ESPERA: de la serotonina también está asociado con un mejor control del\napetito y la reducción del deseo de carbohidratos. Este efecto\nGlucomanano puede favorecer un mejor equilibrio de la carga glucémica,\nEl glucomanano es una fibra alimentaria soluble extraída de la raíz de contribuyendo a mantener estables los niveles de glucosa en\nla planta de konja",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "36"
+      }
+    },
+    {
+      "id": "mate",
+      "title": "Mate",
+      "tags": [
+        "carga_glucémica",
+        "glucosa",
+        "carbohidratos",
+        "glucomanano",
+        "griffonia",
+        "5-htp",
+        "ayúniko",
+        "come",
+        "mate"
+      ],
+      "content": "¿SABÍAS QUE? Lo encuentras en\nAYÚNIKO COME & ESPERA\nA LA DESCUBIERTA DE LO NATURAL Griffonia\nMuchas sustancias naturales, desconocidas para muchos, tienen La Griffonia simplicifolia es una planta rica en 5-HTP, un precursor\npropiedades beneficiosas que contribuyen a una mejor forma física y de la serotonina, un neurotransmisor que desempeña un papel\nbienestar, y por ello se utilizan en el desarrollo de suplementos fundamental en la regulación del estado de ánimo, el sueño y el\nnutricionales. Estos compuestos, derivados de plantas y otras fuentes apetito. La suplementación con 5-HTP derivado de la Griffonia\nnaturales, han sido objeto de estudios científicos que han demostrado puede contribuir a aumentar los niveles de serotonina en el\nsu eficacia en el apoyo a diversas funciones del cuerpo y la mente. A cerebro, ayudando a mejorar el estado de ánimo y a promover un\ncontinuación, presentamos algunas sustancias naturales utilizadas en sueño más reparador. Además de estos beneficios, el aumento\nlos suplementos AYÚNIKO COME y AYÚNIKO ESPERA: de la serotonina también está asociado con un mejor control del\napetito y la reducción del deseo de carbohidratos. Este efecto\nGlucomanano puede favorecer un mejor equilibrio de la carga glucémica,\nEl glucomanano es una fibra alimentaria soluble extraída de la raíz de contribuyendo a mantener estables los niveles de glucosa en\nla planta de konja",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "36"
+      }
+    },
+    {
+      "id": "bromelina",
+      "title": "Bromelina",
+      "tags": [
+        "bromelina",
+        "ayúniko",
+        "disfruta",
+        "bromelina"
+      ],
+      "content": "SABÍAS QUE Lo encuentras en\nAYÚNIKO DISFRUTA\nBROMELINA: qué es y cuáles son sus beneficios\nLa bromelina es un conjunto de enzimas proteolíticas extraídas de la piña (Ananas comosus), conocida por su fruta tropical dulce y\njugosa. Estas enzimas son conocidas por su capacidad para descomponer las proteínas y por los numerosos beneficios que pueden\nofrecer a la salud humana. Utilizada durante siglos en la medicina tradicional, la bromelina es hoy en día reconocida también por la\nmedicina moderna por sus propiedades antiinflamatorias, digestivas y terapéuticas. La bromelina se extrae principalmente del tallo\nde la piña, que contiene la mayor concentración de estas enzimas, y en menor medida de la fruta. Dado que el tallo no se consume\ncomúnmente, la extracción de la bromelina, aunque compleja, representa una forma ecológicamente eficiente de aprovechar al\nmáximo toda la fruta, reduciendo el desperdicio. Este proceso de extracción hace que los enzimas de la bromelina estén disponibles\ncomo suplementos naturales. Diversos estudios científicos han destacado las numerosas propiedades beneficiosas de la bromelina.\nAPOYA LA GESTIÓN DE LA RETENCIÓN DE LÍQUIDOS\nLa eficacia de la bromelina como agente antiinflamatorio y en la reducción del edema ha sido ampliamente documentada. Su\ncapacidad para reducir la producción de prostaglandina E2 y actuar como anticoagulante natural la convierte en ",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "40"
+      }
+    },
+    {
+      "id": "papaya",
+      "title": "Papaya fermentada",
+      "tags": [
+        "papaya",
+        "vitamina_b12",
+        "ayúniko",
+        "disfruta",
+        "papaya"
+      ],
+      "content": "SABÍAS QUE Lo encuentras en\nAYÚNIKO DISFRUTA\nPAPAYA BIOFERMENTADA: VITAMINA B12:\nqué es y cuáles son sus beneficios el papel dentro del organismo\nLa vitamina B12 es un nutriente esencial que desempeña un\nLa papaya es una fruta tropical apreciada por sus numerosos\npapel crucial en numerosas funciones de nuestro organismo. Sus\nbeneficios. Cuando alcanza la madurez, el fruto se vuelve amarillo y\nbeneficios son reconocidos por importantes entidades\ntiene una pulpa aromática, azucarada y rica en enzimas. En su\nregulatorias, como la EMA (Agencia Europea de Medicamentos),\nforma fresca, la papaya es una fuente natural de enzimas digestivas\nla FDA (Administración de Alimentos y Medicamentos) y la OMS\ny contiene una cantidad notable de vitamina C. Sin embargo, es a\n(Organización Mundial de la Salud), que destacan su importancia\ntravés de la fermentación microbiana (biofermentación) que la\npara la salud humana. A continuación, los principales beneficios\npapaya adquiere sus poderosas propiedades antioxidantes,\nde un adecuado aporte de vitamina B12:\nademás de otros importantes beneficios. De hecho, varios estudios\nreconocen a la papaya biofermentada los siguientes beneficios: FAVORECE LA SALUD DE LA PIEL,\nEL CABELLO Y LAS UÑAS\nES UN POTENTE ANTIOXIDANTE Varios estudios han demostrado que la suplementación con\nEstudios científicos han demostrado que la papaya vitamina B12 tiene un impacto po",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "42"
+      }
+    },
+    {
+      "id": "vitamina_b12",
+      "title": "Vitamina B12",
+      "tags": [
+        "vitamina_b12"
+      ],
+      "content": "ABC DE LOS ALIMENTOS\nLÁCTEOS\nSon una rica fuente de proteínas de alta calidad, esenciales para el crecimiento y la reparación de los tejidos. Aportan\ncalcio, fundamental para la salud de los huesos y los dientes, y vitaminas como la B12, necesaria para la función nerviosa y\nla producción de glóbulos rojos. También contienen fósforo, magnesio y potasio, que apoyan el equilibrio electrolítico y la\nsalud muscular.\nLeche: fuente primaria de calcio, vitaminas D y B12, y fósforo. Disponible en varias formas como entera, desnatada y\nsemidesnatada, que difieren en contenido de grasas y calorías;\nYogur: contiene probióticos que pueden ayudar a la salud digestiva. Rico en proteínas, calcio, vitaminas B y a veces enriquecido\ncon vitamina D;\nQuesos: alta concentración de proteínas y calcio. Los quesos curados, como el parmesano, son particularmente ricos en\nnutrientes. Los diferentes tipos de quesos presentan niveles variados de grasas y calorías;\nMantequilla: rico en grasas saturadas y vitaminas liposolubles como A, D, E y K, se utiliza principalmente para enriquecer el sabor de los\nplatos;\nNata: alta en grasas y calorías, utilizada para añadir riqueza y cremosidad a los platos. Contiene algunas vitaminas liposolubles;\nRequesón y quesos frescos: contienen menos grasas que los quesos curados y son una buena fuente de proteínas y calcio.\nLigeros y versátiles en la cocina.\nValores indicativo",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "25"
+      }
+    },
+    {
+      "id": "citratos",
+      "title": "Citratos y minerales",
+      "tags": [
+        "estrés",
+        "ayúniko",
+        "bebe",
+        "citratos"
+      ],
+      "content": "¿SABÍAS QUE? Lo encuentras en\nAYÚNIKO BEBE\nLA ACIDIFICACIÓN DEL ORGANISMO: SISTEMAS TAMPÓN\nUN PROBLEMA EN CRECIMIENTO Y EFECTOS A LARGO PLAZO\nSaliva\nVivimos en una época en la que la acidificación 6.7 - 7.2 Para la supervivencia, el pH de la sangre\ndel organismo es un problema en aumento. debe mantenerse estrictamente en el\nNuestras costumbres han evolucionado más rango de 7,35-7,45. Cuando el\nrápido que nuestra capacidad de adaptarnos a Sangre organismo se acidifica, para restablecer\nnuevos entornos, ritmos y estilos de vida. Este 7.35 - 7.45 el equilibrio, utiliza los sistemas tampón,\ndesequilibrio se debe principalmente a una Jugo gástrico extrayendo sales alcalinas de otras\ndieta que favorece alimentos acidificantes, como 7.35 - 7.45 partes del cuerpo. A largo plazo, este\nproductos refinados, envasados y de origen proceso puede provocar problemas en\nanimal. Sin embargo, existen otras causas Intestino los huesos, como la osteoporosis, en las\n4.8- 8.2\nmenos conocidas que también contribuyen a la articulaciones y en los tejidos\nacidificación, como el estrés, ritmos de vida no Orina conectivos. Además, pueden surgir\nalineados con los ciclos biológicos, la falta de 4.8- 8.0 desequilibrios metabólicos, como la\nsueño, una escasa oxigenación, el sedentarismo hipertensión o la hiperuricemia, y\ny la actividad física intensa. puede afectar la salud de los músculos y\nlos riñones, compr",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "44"
+      }
+    },
+    {
+      "id": "hidratacion",
+      "title": "Hidratación",
+      "tags": [
+        "glucosa",
+        "carbohidratos",
+        "metabolismo",
+        "hidratacion"
+      ],
+      "content": "ABC DEL METABOLISMO\nMACRONUTRIENTES Y SU ROL\nLos macronutrientes son nutrientes esenciales que el cuerpo\nnecesita en grandes cantidades para funcionar correctamente.\nEstos incluyen:\nCarbohidratos: transformados en glucosa durante la digestión,\nrepresentan una fuente primaria de energía inmediata. Cada\ngramo de carbohidratos proporciona 4 calorías;\nGrasas: fuente importante de energía, utilizada especialmente\ncuando los carbohidratos son escasos y para actividades de baja\nintensidad. Las grasas aíslan al cuerpo del frío, ayudan en la\nabsorción de algunas vitaminas, apoyan el funcionamiento del\ncerebro y la producción de hormonas. Se encuentran en\nalimentos como aceite de oliva, aguacate, nueces, semillas y\nalgunos tipos de carne. Cada gramo de grasas aporta 9 calorías;\nProteínas: esenciales para la construcción y reparación de\ntejidos, como músculos, piel y cabello, las proteínas apoyan el\ncrecimiento y el correcto funcionamiento biológico. Se\nencuentran en alimentos como carne, pescado, huevos,\nlegumbres y productos lácteos. Cada gramo de proteínas\naporta 4 calorías.\nLOS MICRONUTRIENTES\nLos micronutrientes son nutrientes esenciales necesarios en\npequeñas cantidades. Se dividen en:\nVitaminas: compuestos orgánicos esenciales que el cuerpo no\npuede producir por sí mismo. Se dividen en liposolubles (A, D, E,\nK) e hidrosolubles (C y complejo B). Algunas vitaminas, como la C\ny la E, ",
+      "source": {
+        "file": "LA CLAVE PARA EL AUTENTICO EQUILIBRIO.pdf",
+        "pages": "6"
+      }
+    },
+    {
+      "id": "protocolo_come_espera",
+      "title": "Uso de AYÚNIKO come y espera (resumen)",
+      "tags": [
+        "come",
+        "espera",
+        "pastillas",
+        "protocolo",
+        "agua"
+      ],
+      "content": "Toma estándar: (a) 3 pastillas de AYÚNIKO come 30 minutos antes de la comida; (b) 2 pastillas de AYÚNIKO espera 30 minutos antes de la cena. Tercera toma (elige una): 3 pastillas de AYÚNIKO come 30 minutos antes del desayuno; o 2 pastillas de AYÚNIKO espera 2 horas después de la cena. Tomar siempre con abundante agua. Si hay hambre nerviosa intensa, se puede añadir una cuarta toma: 3 pastillas de AYÚNIKO come por la tarde (hora típica del snack), siempre con abundante agua.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "1-2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "name": "kb_postventa",
+  "language": "es",
+  "priority": 90,
+  "items": [
+    {
+      "id": "recepcion_del_producto",
+      "title": "Recepción del producto",
+      "tags": [
+        "recepcion",
+        "paquete",
+        "inicio",
+        "ingredientes",
+        "etiqueta"
+      ],
+      "content": "Dentro del paquete encontrarás una hoja informativa que invita a comunicar la recepción de los productos AYÚNIKO. Antes de empezar la toma, es fundamental leer con atención los ingredientes indicados en el envase.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "1"
+      }
+    },
+    {
+      "id": "principio_fundamental",
+      "title": "Principio fundamental",
+      "tags": [
+        "principio",
+        "apoyo",
+        "deficit_calorico",
+        "equilibrio_glucemico",
+        "actividad_fisica"
+      ],
+      "content": "Los productos AYÚNIKO son un apoyo. No generan resultados si no se actúa sobre el equilibrio calórico, el estilo alimentario y la actividad física. La pérdida de peso es consecuencia del equilibrio entre: (1) ingesta calórica, (2) consumo energético y (3) equilibrio glucémico. Más info: https://es.ayuniko.shop/equilibrio-alimenticio/",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "1"
+      }
+    },
+    {
+      "id": "protocolo_toma_estandar",
+      "title": "Protocolo de toma (AYÚNIKO come y espera)",
+      "tags": [
+        "protocolo",
+        "toma",
+        "come",
+        "espera",
+        "pastillas",
+        "agua"
+      ],
+      "content": "Toma estándar: (a) 3 pastillas de AYÚNIKO come 30 minutos antes de la comida; (b) 2 pastillas de AYÚNIKO espera 30 minutos antes de la cena. Tercera toma (elige una): 3 pastillas de AYÚNIKO come 30 minutos antes del desayuno; o 2 pastillas de AYÚNIKO espera 2 horas después de la cena. Tomar siempre con abundante agua. Si hay hambre nerviosa intensa, se puede añadir una cuarta toma: 3 pastillas de AYÚNIKO come por la tarde (hora típica del snack), siempre con abundante agua.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "1-2"
+      }
+    },
+    {
+      "id": "hidratacion_bebe",
+      "title": "Hidratación y AYÚNIKO bebe",
+      "tags": [
+        "hidratacion",
+        "bebe",
+        "agua",
+        "stick",
+        "electrolitos"
+      ],
+      "content": "Las pastillas pueden tomarse con agua preparada con AYÚNIKO bebe. Preparación: verter 1 stick en 1 litro de agua, beber durante el día y usar también para acompañar la toma de las pastillas. No se indican límites específicos de uso.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "2"
+      }
+    },
+    {
+      "id": "primeros_dias_que_esperar",
+      "title": "Qué esperar en los primeros días",
+      "tags": [
+        "primeros_dias",
+        "adaptacion",
+        "estres",
+        "azucar",
+        "carbohidratos",
+        "ritmo_circadiano"
+      ],
+      "content": "En los primeros días es normal percibir un beneficio reducido. Puede depender de hábitos consolidados ligados al ritmo circadiano, niveles elevados de estrés o un consumo alto de azúcares y carbohidratos. Los azúcares y carbohidratos de alto impacto glucémico estimulan el hambre nerviosa y pueden ir en dirección opuesta al efecto de las pastillas. Estrés y hambre nerviosa: https://es.ayuniko.shop/equilibrio-estres-gratificacion/",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "2"
+      }
+    },
+    {
+      "id": "maximizar_beneficios",
+      "title": "Qué hacer para maximizar los beneficios",
+      "tags": [
+        "habitos",
+        "azucares_añadidos",
+        "fruta",
+        "carbohidratos",
+        "equilibrio"
+      ],
+      "content": "Para facilitar la pérdida de peso y ayudar al cuerpo a recuperar su equilibrio natural: (1) tomar conciencia de los azúcares añadidos leyendo etiquetas; (2) reducir azúcares añadidos para evitar picos de glucosa y hambre; (3) consumir fruta con equilibrio (también aporta glucosa/fructosa); (4) reducir carbohidratos sin eliminarlos para mejorar la gestión de energía y favorecer el uso de reservas.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "3"
+      }
+    },
+    {
+      "id": "peso_y_mediciones",
+      "title": "Peso y mediciones",
+      "tags": [
+        "peso",
+        "mediciones",
+        "hidratacion",
+        "circunferencias",
+        "15_dias"
+      ],
+      "content": "En los primeros 15 días el peso puede verse influido por una mayor hidratación. Por eso se recomienda medir circunferencias corporales y no basarse únicamente en el peso: la variación inicial no siempre refleja cambios reales de composición corporal.",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "4"
+      }
+    },
+    {
+      "id": "tablas_nutricionales",
+      "title": "Tablas nutricionales y referencia",
+      "tags": [
+        "tablas",
+        "nutricion",
+        "equilibrio_glucemico",
+        "equilibrio_calorico",
+        "recetario"
+      ],
+      "content": "Para entender el impacto de los alimentos hay que analizar su valor nutricional. Tablas: https://es.ayuniko.shop/tablas-alimentos/  Concepto de equilibrio calórico y glucémico: https://es.ayuniko.shop/equilibrio-alimenticio/  Recetario: https://es.ayuniko.shop/recetario/",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "4-5"
+      }
+    },
+    {
+      "id": "faq_no_baja_peso",
+      "title": "FAQ: tomo las pastillas pero no bajo de peso",
+      "tags": [
+        "faq",
+        "no_bajo_de_peso",
+        "deficit_calorico",
+        "equilibrio_glucemico",
+        "hambre"
+      ],
+      "content": "Primero verifica si realmente ha disminuido el hambre con la toma de las pastillas (la pérdida de peso es una consecuencia). Explica que se baja de peso cuando existe déficit calórico y equilibrio glucémico. Artículo: https://es.ayuniko.shop/equilibrio-alimenticio/  Para entender el impacto de los alimentos: https://es.ayuniko.shop/tablas-alimentos",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "5"
+      }
+    },
+    {
+      "id": "faq_puedo_comer_esto",
+      "title": "FAQ: puedo comer un alimento específico",
+      "tags": [
+        "faq",
+        "alimentos",
+        "tablas",
+        "nutricionista",
+        "estilo_alimentario"
+      ],
+      "content": "Responde según las tablas indicadas. Aclara que no se puede analizar el balance calórico y glucémico por un solo alimento de forma aislada: hay que evaluar el estilo alimentario completo, valoración que corresponde a un nutricionista. Para orientarse: https://es.ayuniko.shop/equilibrio-alimenticio/ y https://es.ayuniko.shop/tablas-alimentos/  Recetario: https://es.ayuniko.shop/recetario/",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "5"
+      }
+    },
+    {
+      "id": "faq_sigo_con_hambre",
+      "title": "FAQ: tomo las pastillas pero sigo con hambre",
+      "tags": [
+        "faq",
+        "hambre",
+        "agua",
+        "estres",
+        "glucemia",
+        "glucometro",
+        "carbohidratos"
+      ],
+      "content": "Verifica: (1) que se tomen al menos 3 veces al día; (2) que se tomen con abundante agua; (3) nivel de estrés (si es alto: https://es.ayuniko.shop/equilibrio-estres-gratificacion/ ); (4) consumo de carbohidratos y azúcares. Si dice consumir pocos, sugiere medir glucemia con un glucómetro durante varios días y en diferentes horarios (no basta con analíticas puntuales).",
+      "source": {
+        "file": "Uso dei prodotti.pdf",
+        "pages": "5-6"
+      }
+    }
+  ]
+}
