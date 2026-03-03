@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "server.js": {
+      "includeFiles": [
+        "kb_safety_es.json",
+        "kb_postventa_es.json",
+        "kb_products_es.json",
+        "kb_guide_es.json"
+      ]
+    }
+  }
+}
