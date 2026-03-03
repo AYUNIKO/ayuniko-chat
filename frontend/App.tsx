@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, RefreshCw, Phone, Info, MessageSquare } from 'lucide-react';
+import { Send, RefreshCw, Info } from 'lucide-react';
 import { Message, ChatState } from './types';
 import { createAyunikoChat, sendMessageToGemini } from './services/geminiService';
 import ChatMessage from './components/ChatMessage';
@@ -11,7 +11,7 @@ const App: React.FC = () => {
       {
         id: 'welcome',
         role: 'model',
-        text: 'Hola, bienvenido al soporte oficial de AYÚNIKO 😊 ¿En qué puedo ayudarte hoy con tus productos?',
+        text: 'Hola 😊 Bienvenido al soporte oficial de AYÚNIKO. ¿En qué puedo ayudarte?',
         timestamp: new Date(),
       },
     ],
@@ -53,7 +53,6 @@ const App: React.FC = () => {
         text: response,
         timestamp: new Date(),
       };
-
       setState((prev) => ({
         ...prev,
         messages: [...prev.messages, botMsg],
@@ -69,8 +68,11 @@ const App: React.FC = () => {
   };
 
   const onSabiasQue = () => {
-    handleSend('Cuéntame un dato curioso sobre nutrición o los productos Ayuniko.');
+    handleSend('Cuéntame un dato curioso sobre nutrición o los productos AYÚNIKO.');
   };
+
+  // mostra i pulsanti solo all'inizio (solo welcome, o welcome + 1 msg)
+  const showQuickReplies = state.messages.length <= 1 && !state.isLoading;
 
   return (
     <div className="flex flex-col h-screen bg-slate-50">
@@ -92,6 +94,7 @@ const App: React.FC = () => {
               </p>
             </div>
           </div>
+
           <button
             onClick={() => window.location.reload()}
             className="p-2 text-slate-400 hover:text-slate-900 transition-colors"
@@ -104,7 +107,7 @@ const App: React.FC = () => {
 
       {/* Main Content */}
       <main className="flex-1 max-w-3xl w-full mx-auto flex flex-col overflow-hidden">
-        {/* Resource Buttons */}
+        {/* Resource Buttons (top cards) */}
         <div className="px-4 pt-4 flex-shrink-0">
           <ResourceButtons onSabiasQue={onSabiasQue} />
         </div>
@@ -117,6 +120,35 @@ const App: React.FC = () => {
                 <ChatMessage key={m.id} message={m} />
               ))}
 
+              {/* quick replies sotto al welcome */}
+              {showQuickReplies && (
+                <div className="flex flex-wrap gap-2 pt-1">
+                  <button
+                    type="button"
+                    onClick={() => handleSend('Assunzione delle pastiglie')}
+                    className="px-3 py-1.5 text-xs rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
+                  >
+                    Assunzione delle pastiglie
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => handleSend('Preparare BEBE')}
+                    className="px-3 py-1.5 text-xs rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
+                  >
+                    Preparare BEBE
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => handleSend('Come sconfiggere la fame')}
+                    className="px-3 py-1.5 text-xs rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700"
+                  >
+                    Come sconfiggere la fame
+                  </button>
+                </div>
+              )}
+
               {state.isLoading && (
                 <div className="flex justify-start">
                   <div className="bg-slate-50 border border-slate-100 px-4 py-3 rounded-2xl rounded-tl-none flex items-center space-x-2">
@@ -124,15 +156,15 @@ const App: React.FC = () => {
                       <div
                         className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce"
                         style={{ animationDelay: '0ms' }}
-                      />
+                      ></div>
                       <div
                         className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce"
                         style={{ animationDelay: '150ms' }}
-                      />
+                      ></div>
                       <div
                         className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce"
                         style={{ animationDelay: '300ms' }}
-                      />
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -187,37 +219,6 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="flex-shrink-0 pb-6 px-4 bg-slate-50">
-        <div className="max-w-3xl mx-auto">
-          <div className="flex items-center justify-center gap-6 text-xs">
-            <a
-              href="https://es.ayuniko.shop"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-emerald-600 font-semibold hover:underline"
-            >
-              <Phone size={16} />
-              soporte whatsapp
-            </a>
-
-            <a
-              href="https://es.ayuniko.shop/filosofia"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 text-slate-600 font-semibold hover:underline"
-            >
-              <MessageSquare size={16} />
-              filosofía ayúniko
-            </a>
-          </div>
-
-          <div className="mt-3 text-center text-[10px] text-slate-400 tracking-wide">
-            asistente inteligente · no sustituye consejo médico profesional
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
