@@ -26,7 +26,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
             ? 'bg-white border border-slate-200 text-slate-800 rounded-tl-none shadow-sm' 
             : 'bg-slate-900 text-white rounded-tr-none'
         }`}>
-          <div className="whitespace-pre-wrap">{message.text}</div>
+        <div className="whitespace-pre-wrap break-words">{message.text}</div>
           <div className={`text-[9px] mt-1.5 opacity-40 font-medium ${isBot ? 'text-slate-500' : 'text-slate-300'}`}>
             {message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
           </div>
