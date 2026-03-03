@@ -75,7 +75,14 @@ const KB_ALL = [
   ...KB_POSTVENTA.map((x) => ({ ...x, __lane: 'postventa', __priority: 90 })),
   ...KB_PRODUCTS.map((x) => ({ ...x, __lane: 'products', __priority: 80 })),
   ...KB_GUIDE.map((x) => ({ ...x, __lane: 'guide', __priority: 60 })),
+  
 ];
+
+console.log('[kb] safety:', KB_SAFETY.length);
+console.log('[kb] postventa:', KB_POSTVENTA.length);
+console.log('[kb] products:', KB_PRODUCTS.length);
+console.log('[kb] guide:', KB_GUIDE.length);
+console.log('[kb] total:', KB_ALL.length);
 
 function getItemText(item) {
   if (!item) return '';
